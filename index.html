@@ -2,14 +2,14 @@
 <html lang="fr">
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous" defer>
-	<link rel="stylesheet" href="./assets/style.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous" as="style" onload="this.onload=null;this.rel='stylesheet'">
+	<link rel="preload" href="./assets/style.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
 	<link href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" rel="stylesheet" media="print" onload="this.media='all'" defer>
 	<meta charset="UTF-8">
-	<!-- <script src="https://kit.fontawesome.com/c1d8d4d564.js" crossorigin="anonymous" defer></script>
-	<!-- Balises référencement  -->
+	
+	<!--Balises référencement  -->
 	<title>Nina Carducci | Photographe professionnelle à Bordeaux - Shooting photo, retouches et albums photo personnalisés</title>
 	<meta name="description" content="Photographe professionnelle basée sur Bordeaux, je vous offre mes services de shooting photo, retouches et création d'albums photo personnalisés. Capturons ensemble vos précieux moments avec authenticité, émotion et un savoir-faire professionnel.">
 	<meta itemprop="openingHours" content="Mo-Fr 10:00-19:00">
@@ -28,10 +28,15 @@
 	<meta name="twitter:title" content="Nina Carducci | Photographe professionnelle à Bordeaux - Shooting photo, retouches et albums photo personnalisés">
 	<meta name="twitter:description" content="Photographe professionnelle basée sur Bordeaux, je vous offre mes services de shooting photo, retouches et création d'albums photo personnalisés. Capturons ensemble vos précieux moments avec authenticité, émotion et un savoir-faire professionnel.">
 	<meta name="twitter:image" content="./assets/images/nina-carducci-photographer.webp">
+
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous" defer></script> 
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous" defer></script> 
+	<script src="./assets/maugallery.js" defer></script>
+	<script src="./assets/scripts.js" defer></script> 
 </head>
 <body>
 <header class="top-header">
-	<h1 class="name">Nina Carducci | Photographe</h1>
+	<h1 class="name">Nina Carducci - Photographe</h1>
 	<nav class="nav">   
 		<ul>
 			<li><a href="#about">À propos</a></li>
@@ -59,7 +64,6 @@
 						sizes="100vw"
 					       	class="d-block w-100" alt="Man in suit photography"
 						src="./assets/images/slider/desktop/man-in-suit-photography.webp" 
-						
 						
 					>
 				</div>
@@ -207,22 +211,17 @@
 		</div>
 	</div>
 	<div class="infos_nina" itemscope itemtype="http://schema.org/LocalBusiness">
-		<h4 itemprop="name">Nina Carducci | Photographe Bordeaux </h4>
+		<h1 itemprop="name">Nina Carducci - Photographe  </h1>
 		<div class="address" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-			<i class="fa-solid fa-location-dot fa-lg" style="color: #BEB45A;"></i>
+			<img width="16" height="16"  class="icon-location" src="./assets/images/location-dot-solid.svg" alt="icon location">
 			<span itemprop="streetAddress">68 avenue Alsace-Lorraine</span>,
 			<span itemprop="addressLocality">Bordeaux</span>,
 			<span itemprop="postalCode">33200</span>
 		</div>
-		<i class="fa-solid fa-phone-flip fa-lg" style="color:#BEB45A;"></i>
+		<img width="16" height="16"  class="icon-mobile" src="./assets/images/mobile-screen-button-solid.svg" alt="icon phone number">
 		<span class="telephone" itemprop="telephone"> <a href="tel:0556677889">05 56 67 78 89 </a> (10h - 19h) </span>	
 	</div>
 </footer>
-<!--
-<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script> -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script> 
-<script src="./assets/maugallery.js"></script>
-<script src="./assets/scripts.js"></script> 
 </body>
 </html>
 			
