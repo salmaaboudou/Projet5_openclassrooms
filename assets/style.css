@@ -23,6 +23,7 @@ body {
 }
 .top-header .name {
     font-size: 26px;
+    line-height: 1;
 }
 .nav ul {
     display: flex;
@@ -72,8 +73,8 @@ body {
 }
 .about-me__title {
     margin-top: 1.5em;
-    margin-bottom: 60px;
-    font-size: 30px;
+    margin-bottom: 2em;
+    font-size: 2rem;
 }
 .about-me__introduction {
     font-family: "Spectral";
