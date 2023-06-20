@@ -80,18 +80,18 @@ body {
     font-family: "Spectral";
     font-weight: 800;
     font-style: italic;
-    max-width: 60% !important;
+    width: 60% ;
     font-size: 1rem !important;
     line-height: 1.2;
 }
 
 @media (max-width: 1180px) {
-    #about-me__introduction,
-    #about-me p {
+    .about-me__introduction,
+    .about-me__paragraph {
         width: 100% !important;
     }
 }
-#about-me p {
+.about-me__paragraph {
     width: 80%;
     font-size: 14px;
 }
